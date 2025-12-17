@@ -30,10 +30,5 @@ from deepod.models.time_series.usad import USAD
 from deepod.models.time_series.tcned import TcnED
 
 __all__ = [
-    'RCA', 'DeepSVDD', 'GOAD', 'NeuTraL', 'RDP', 'ICL', 'SLAD', 'DeepIsolationForest',
-    'DeepSAD', 'DevNet', 'PReNet', 'FeaWAD', 'REPEN', 'RoSAS',
-    'DCdetector', 'TimesNet', 'AnomalyTransformer', 'NCAD',
-    'TranAD', 'COUTA', 'USAD', 'TcnED',
-    'DeepIsolationForestTS', 'DeepSVDDTS',
-    'PReNetTS', 'DeepSADTS', 'DevNetTS'
+    "tabular", "time_series"
 ]
